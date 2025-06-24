@@ -1,23 +1,47 @@
-<<<<<<< HEAD
-# Full Stack Jira Clone with Next JS, React, Tailwind CSS, Prisma, Neon, Clerk, Shadcn UI Tutorial 🔥🔥
-## https://www.youtube.com/watch?v=R5dBYINNouY
+# AgileBoard – Jira Clone
 
-![image](https://github.com/user-attachments/assets/783d4f3b-925d-44cf-aaf8-4ee4035b2f6c)
+A simplified, full-stack clone of Atlassian's Jira built using React, Node.js, Express, and MongoDB. Designed to manage projects with agile boards, issues, and team collaboration tools.
 
-### Make sure to create a `.env` file with following variables -
+![AgileBoard Screenshot](https://raw.githubusercontent.com/piyush-eon/jira-clone/master/demo.png)
 
-```
-DATABASE_URL=
+## 🌟 Features
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+- User Authentication (Login/Signup)
+- Create and manage projects
+- Add tickets/issues with status updates
+- Drag-and-drop support for kanban-style task boards
+- Search and filter tasks
+- Responsive UI for all devices
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
-```
-=======
-# v-meet
-V-Meet is a virtual video meeting web app designed for seamless real-time communication, online collaboration, and secure video conferencing.
->>>>>>> 15d08a9583f14b460c1f5be395ee2212613e1bef
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Redux Toolkit
+- React DnD
+- SCSS
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- JWT Authentication
+- Bcrypt for password hashing
+
+## 🚀 Live Demo
+
+🔗 [Live Demo on Render](https://jira-clone-eon.onrender.com)  
+(*Note: May take a few seconds to load due to server cold start.*)
+
+## 📦 Getting Started Locally
+
+### Prerequisites
+
+- Node.js and npm
+- MongoDB installed or MongoDB Atlas account
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/piyush-eon/jira-clone.git
+cd jira-clone
