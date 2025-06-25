@@ -1,6 +1,6 @@
 # DevFlow – Agile Project Management App
 
-DevFlow is a modern, full-stack agile project management tool for developers and teams to track, organize, and collaborate on tasks using a Scrum-style board. It features a clean UI, drag-and-drop task flow, and robust user management.
+zscumb is a modern, full-stack agile project management tool for developers and teams to track, organize, and collaborate on tasks using a Scrum-style board. It features a clean UI, drag-and-drop task flow, and robust user management.
 
 ---
 
