@@ -1,19 +1,25 @@
-# AgileBoard – Jira Clone
+# DevFlow – Agile Project Management App
 
-A simplified, full-stack clone of Atlassian's Jira built using React, Node.js, Express, and MongoDB. Designed to manage projects with agile boards, issues, and team collaboration tools.
+[Live Demo 🚀](https://zscrum-orpin.vercel.app)
 
-![AgileBoard Screenshot](https://raw.githubusercontent.com/piyush-eon/jira-clone/master/demo.png)
+DevFlow is a modern, full-stack agile project management tool designed for developers and teams to track, organize, and collaborate on tasks using a Scrum-style board. It features a clean UI, drag-and-drop task flow, and robust user management.
 
-## 🌟 Features
+![DevFlow Screenshot](https://raw.githubusercontent.com/piyush-eon/jira-clone/master/demo.png)
 
-- User Authentication (Login/Signup)
-- Create and manage projects
-- Add tickets/issues with status updates
-- Drag-and-drop support for kanban-style task boards
-- Search and filter tasks
-- Responsive UI for all devices
+---
 
-## 🛠 Tech Stack
+## ✨ Features
+
+- 👤 User Authentication (JWT-based)
+- 📁 Create and manage projects
+- 🧩 Add, update, and delete tasks
+- 🟩 Kanban-style board with drag-and-drop
+- 🔎 Task filtering and status updates
+- 📱 Responsive design for all devices
+
+---
+
+## ⚙️ Tech Stack
 
 ### Frontend
 - React.js
@@ -24,21 +30,17 @@ A simplified, full-stack clone of Atlassian's Jira built using React, Node.js, E
 ### Backend
 - Node.js
 - Express.js
-- MongoDB with Mongoose
-- JWT Authentication
-- Bcrypt for password hashing
+- MongoDB
+- Mongoose
+- JWT & Bcrypt
 
-## 🚀 Live Demo
+---
 
-🔗 [Live Demo on Render](https://jira-clone-eon.onrender.com)  
-(*Note: May take a few seconds to load due to server cold start.*)
-
-## 📦 Getting Started Locally
+## 🧪 Getting Started Locally
 
 ### Prerequisites
-
-- Node.js and npm
-- MongoDB installed or MongoDB Atlas account
+- Node.js, npm
+- MongoDB local or Atlas
 
 ### 1. Clone the Repository
 
