@@ -15,7 +15,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import CompanyCarousel from "@/components/company-carousel";
 import Image from "next/image";
 
 const faqs = [
@@ -123,16 +122,6 @@ export default function Home() {
               </Card>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Companies Carousel */}
-      <section className="py-20">
-        <div className="container mx-auto">
-          <h3 className="text-3xl font-bold mb-12 text-center">
-            Trusted by Industry Leaders
-          </h3>
-          <CompanyCarousel />
         </div>
       </section>
 
